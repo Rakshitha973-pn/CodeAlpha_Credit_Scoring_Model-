@@ -1,0 +1,24 @@
+============================================================
+CREDIT SCORING MODEL - CLASSIFICATION REPORT
+============================================================
+
+Best Model: Random Forest
+
+              precision    recall  f1-score   support
+
+  Bad Credit       0.67      0.50      0.57        60
+ Good Credit       0.81      0.89      0.85       140
+
+    accuracy                           0.78       200
+   macro avg       0.74      0.70      0.71       200
+weighted avg       0.76      0.78      0.76       200
+
+
+============================================================
+MODEL COMPARISON
+============================================================
+
+              Model  Accuracy  Precision   Recall  F1-Score  ROC-AUC
+Logistic Regression     0.740   0.801370 0.835714  0.818182 0.782262
+      Decision Tree     0.725   0.869565 0.714286  0.784314 0.756845
+      Random Forest     0.775   0.806452 0.892857  0.847458 0.810179
